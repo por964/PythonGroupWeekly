@@ -1,26 +1,18 @@
-# Python Exercise 07
+# Python Exercise 08
 
 ## Exercise 1
 
-1. Go to this website: www.edc.dk
-2. Use Selenium to define your search criteria ( area/city, property type)
-3. Use Beautiful soup to and Regex to get the following data from the search result:
-   Price
-   House size
-   Sales period (liggetid)   
+1. Fetch data from here: https://www.kaggle.com/shivamb/netflix-shows (data type is .csv)
+2. Load the CSV file into a DataFrame
+3. Persist the dataframe to your local docker database  
 
 ## Exercise 2
 
-1. Use the extracted data to calculate the following:
-   Calculate the average sales price for the seleted area
-   Calculate the average size of the selected properties
-2. Make a bar plot that shows the number of houses for sale in the three following price ranges:
-   0 - 2.000.000
-   2.000.001 - 5.000.000
-   < 5.000.001
+1. Create an endpoint that takes a year as parameter and returns all movies and series from that given year (use the column 'release_year' in the data set)
    
 
 Gruppe 5:
 
 - Jonas Sthur Brøchner Nielsen (cph-jb373@cphbusiness.dk)
+- Rasmus Hemmingsen (cph-rh178@cphbusiness.dk)
 - Claes Lindholm (cph-cl303@cphbusiness.dk)
